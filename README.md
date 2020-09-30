@@ -2,10 +2,12 @@ PeterMcGuinnessPhotography PortFolio
 
 
 
-//////////HOSTED URL/////
+//////////HOSTED URL///////////////////
+
 Currently Hosted at http://petermcguinnessphotography.s3-website.eu-west-2.amazonaws.com/
 with plans to migrate to http://petermcguinnessphotography.com once website is finalised
-/////////////////////////////////////////
+
+
 
 REACT Photography Portfolio Website, Javascript
 
