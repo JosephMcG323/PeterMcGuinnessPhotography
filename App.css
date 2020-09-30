@@ -1,0 +1,28 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  
+.awsbtn {
+
+  --loader-bar-height: 0px;
+  }
+
+  .page-container{
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+ 
+.content-wrap{
+  flex:1;
+}
+
+/* 
+#floated{
+  float: right;
+  width: 150px;
+  background: red;
+} */

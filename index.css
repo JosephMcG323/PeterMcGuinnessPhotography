@@ -1,0 +1,388 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#header_floated{
+
+  font-size: 60px;
+  font-family: bignoodletitling;
+  text-align: center;
+  color: whitesmoke;
+  margin-bottom: 10px;
+
+}
+
+#lineUnder{
+  margin-bottom: 20px;
+
+
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body{
+
+  margin: 0;
+  padding: 0;
+}
+
+.menu-wrapper{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.nav-area{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  transition: top .6s;
+  background: rgba(0,0,0,0.4);
+  padding: 10px;
+  overflow: hidden;
+}
+
+.logo{
+  display: inline-block;
+ margin: 0;
+ 
+}
+
+
+.logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 29px;
+  font-family: merienda;
+  padding-left: 15;
+}
+
+.menu-wrapper nav{
+  float: right;
+}
+
+.right-nav{
+  overflow: hidden;
+  list-style: none;
+}
+
+.right-nav li{
+
+  float: left;
+  margin-left: 16px;
+}
+
+
+.right-nav li a{
+
+  color: #fff;
+  text-decoration: none;
+  font-family: roboto;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.banner-area{
+  height: 10vh;
+  /* background-image:url(https://blog.snappa.com/wp-content/uploads/2018/03/twitch-banner-size-2.jpg); */
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.main-text{
+  max-height: 80px;
+  margin: 1--px auto 0;
+
+}
+
+
+.space-here{
+  max-height: 30px;
+  margin: 1--px auto 0;
+
+}
+
+.aws-btn {
+
+  --slider-height-percentage: 80%;
+  --slider-transition-duration: 700ms;
+  --organic-arrow-thickness: 1px;
+  --organic-arrow-border-radius: 0px;
+  --organic-arrow-height: 30px;
+  --organic-arrow-color: #d5d5d5;
+  --control-button-width: 29%;
+  --control-button-height: 25%;
+  --control-button-background: transparent;
+  --control-bullet-color: #fafafa;
+  --control-bullet-active-color: #d5d5d5;
+  --loader-bar-color: #851515;
+  --loader-bar-height: 0px;
+  }
+
+.space-here2{
+  max-height: 550px;
+  margin: 1--px auto 0;
+
+}
+
+
+.main-text h2{
+  font-size: 60px;
+  font-family: bignoodletitling;
+  text-align: center;
+  color: crimson;
+}
+
+.awsbtn {
+
+  --loader-bar-height: 0px;
+  }
+.centerAll{
+  
+margin: auto;
+width: 60%;
+
+padding: 10px;
+margin-bottom: 30px;
+margin-top: 30px;
+
+}
+.containerSpace3{
+  
+  margin-block-end: 400cm;
+  margin-top: 10000000cm;
+  padding-bottom: 1000px;
+}
+.centerAll8{
+  transform: scale(0.9);
+  margin: auto;
+  height: 60%;
+  width: 60%;
+  }
+.centerAll2{
+  
+  margin: auto;
+  width: 40%;
+  
+  }
+
+  
+
+  .centerzoomImg{
+    margin: 10px auto 100;
+    padding-left: 9%;
+    padding-right: 9%;
+
+    }
+
+    
+  .centerAll3{
+    width: 100%;
+    }
+
+    .centerAll3b{
+      width: 900%;
+    }
+
+
+    .centerAll4{
+      width: 65%;
+      padding: -10px;
+
+      margin: auto;
+      
+      }
+
+
+      .centerAll5{
+    
+margin: auto;
+width: 20%;
+
+        
+        }
+
+#containerSpace{
+  height: 10vh;
+
+  
+}
+
+
+
+#containerSpaceless{
+  height: 1vh;
+
+  
+}
+/* 
+#floated{
+    float: right;
+    width: 65%;
+    font: verdana;
+    font-size: 15px;
+    color: seashell;
+    
+} */
+
+
+#floated{
+  margin: auto;
+  padding-left: 8%;
+    padding-right: 9%;
+    font: verdana;
+    width: 85%;
+    font-size: 19px;
+    color: seashell;
+    
+} 
+
+
+#notfloated{
+    font: verdana;
+  font-size: 15px;
+  color: seashell;
+  
+}
+
+
+#floated_left{
+  float: left;
+  width: 190px;
+  font: verdana;
+  font-size: 15px;
+  color: seashell;
+  
+}
+.bigGap{
+ 
+  height: 100vh;
+  }
+
+.centerInst{
+  transform: scale(0.7);
+  max-height: 950px;
+  margin-left: 10%;
+  }
+  
+
+
+.centerAldasdl{
+  font-size: 60px;
+  font-family: bignoodletitling;
+  text-align: center;
+  margin: 0;
+  padding-left: 50px;
+  padding-left: 5px;
+}
+
+.main-text p{
+
+  font-family: poppins;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+
+.nav-area.animate{
+  top: -71px;
+}
+
+.nav-area.sticky{
+  top: 0;
+  z-index: 99;
+}
+
+.footer{
+  margin-top: 1rem;
+  background-color: 	rgb(40,40,40);
+  position: absolute;
+  bottom: 100;
+  height: 12%;
+  left: 0;
+  width: 100%;
+}
+
+
+.footerText{
+  padding-top: 15px;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family: poppins;
+  font-size: 28px;
+  line-height: 1.8;
+  color: white;
+}
+
+
+.footerText2{
+  padding-top: 15px;
+  padding-left: 15%;
+  padding-right: 25%;
+  font-family: poppins;
+  font-size: 18px;
+  line-height: 1.8;
+  color: white;
+}
+/* .logo{
+  
+  height: 80px;
+} */
+
+
+.logo .web_address{
+  font-size:21px;
+}
+
+
+.bottomleft{
+  position: absolute;
+  left: 0;
+  font-size: 22px;
+  color: seashell;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+
+.bottomleft2{
+  position: absolute;
+  left: 0;
+  font-size: 20px;
+  color: rgb(238, 238, 238);
+  padding-top: 4.4%;
+  padding-left: 2%;
+}
+
+
+.bottommiddle{
+  position: absolute;
+  right: 0;
+  padding-right: 50%;
+  padding-left: 50%;
+  font-size: 25px;
+  color: seashell;
+  padding-top: 2%;
+}
+
+
+.bottomright{
+  position: absolute;
+  right: 0;
+  font-size: 34px;
+  color: seashell;
+  padding-top: 2%;
+
+}
+a {
+  color:inherit;
+}
